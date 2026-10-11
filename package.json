@@ -1,0 +1,27 @@
+{
+  "name": "xox-singleplayer",
+  "version": "1.0.0",
+  "description": "Single-player Ultimate Tic-Tac-Toe built with Vue 3, Minimax AI, and optional ChatGPT moves.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "ai-server": "node server/aiServer.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.3.6"
+  }
+}
